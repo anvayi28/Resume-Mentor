@@ -1,0 +1,109 @@
+/* General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff, #d9e4ff);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 10px;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    background: #ffffffdd;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.container h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Input & Button */
+input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+}
+
+.analyze-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.analyze-btn:hover {
+    background: #357ab7;
+    transform: scale(1.05);
+}
+
+/* Result Card */
+#result {
+    margin-top: 25px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: left;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px 0;
+    color: #555;
+}
+
+.found {
+    color: rgb(57, 173, 57);
+    font-weight: 500;
+}
+
+.missing {
+    color: rgb(188, 88, 88);
+    font-weight: 500;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .analyze-btn {
+        width: 100%;
+    }
+}

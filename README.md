@@ -1,4 +1,4 @@
-# ResumeMentor – AI Career & Skill Analyzer
+# Resume Mentor | AI-Powered Resume Analyzer and Career Predictor
 
 # Project Overview
 Resume Mentor is your smart career companion. It helps students and professionals understand where their resumes can take them by analyzing skills and experiences, then suggesting career paths that fit best. Beyond just predictions, it highlights the skills you already have, points out the ones you’re missing, and gives practical recommendations to boost your employability.
